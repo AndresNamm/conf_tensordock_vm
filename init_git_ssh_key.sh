@@ -1,5 +1,13 @@
 #!/bin/bash
 
+
+# PLAIN GIT5
+
+  git config --global user.email "andres.namm@ut.ee"
+  git config --global user.name "Andres Namm"
+
+
+# AUTH
 # Generate SSH key pair
 ssh-keygen -t ed25519 -C "andres.namm@ut.ee" -f ~/.ssh/id_ed25519 -N ""
 
